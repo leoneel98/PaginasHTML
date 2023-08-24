@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=x, initial-scale=1.0">
+    <title>Recetas de comidas</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="shortcut icon" href="./tacos.ico" type="image/x-icon">
+    <!--AGREGAMOS LIBRERIA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <link rel="stylesheet" href="estilos.css">
+</head>
+    <title>Soporte</title>
+</head>
+<body>
+    <h1 class="Soporte">Soporte </h1>
+</body>
+
+<main>
+    <fieldset> <!--Para escribir un Registro o cuadro con mas nombres-->
+        <legend>Datos Personales: </legend> <br>
+                <label for="Nombre">Nombre: </label>
+                <input size="30" type="text" name="lastname" placeholder="Ingrese Nombres: ">
+                <!--Agregamos nombre + texto en cuadro a rellenar..-->
+                <label for="Apellido">Apellido: </label>
+                <input size="30" type="text" name="lastname" placeholder="Ingrese Apellido: ">
+                <!--Agregamos Apellido + texto en cuadro a rellenar..-->
+                <br> <br>
+
+                <label for="Telefono">Telefono</label> 
+                <input size="30" type="text" name="lastname" placeholder="Ingrese numero de Telefono: ">
+                    <!--Lo mismo que nombre y apellido.. ETC-->
+                <label for="Direccion">Direccion: </label>
+                <input size="30" type="text" name="lastname" placeholder="Ingrese Direccion: ">
+
+                <label for="Codigo Postal">Codigo Postal: </label> 
+                <input size="30" type="text" name="lastname" placeholder="Codigo postal: "> <br></br>
+
+                <label for="fecha_nacimiento">fecha nacimiento (mm/dd/yyyy)</label>
+                <input type="date" id="fecha_nacimiento"> <br><br>
+
+                <p>Genero (Radio)
+                        <!--Para que podamos elegir una sola opcion.. en "Name" tenemos que tener todos iguales en cada input.-->
+                    <input type="radio" name="Genero" value="Hombre">Hombre 
+                    <input type="radio" name="Genero" value="Mujer"> Mujer 
+                    <input type="radio" name="Genero" value="otro"> otro
+                </p>
+                    <br><br><br><br>
+
+                <label for="consultar">Consultar: </label>
+                    <select  name="consultar" id="Consultar">
+                        <option value="Recetas_Consultar">Recetas</option>
+                        <option value="Registro_Consultar">Registro</option>
+                        <option value="Otros_Consultar">Otros</option>
+
+                    </select>
+
+                        
+                    <br><br>
+                    <label for="Comentarios">Comentarios:</label> 
+                        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea> <!--Cuadro de texto-->
+                        <br><br>
+                        <input type="submit" value="Enviar"> <br> <br>
+                        
+                        <button onclick= "location.href='index.html'">Regresar al inicio</button><!--Boton para regresar al index-->
+    </fieldset>
+</main>
+
+<footer class="ayudando">
+    
+    <div class="ayudando" > <!--Creamos otra clase + estilo y alineamos-->
+        
+
+        <h4>Siguenos</h4>
+
+        <div footer class="social-links">
+
+            <ul>
+                <a href="#"></a><i class="fab fa-facebook-f"></i>
+                <a href="#"></a><i class="fab fa-instagram"></i>
+                <a href="#"></a><i class="fab fa-hotmail"></i>
+                <a href="#"></a><i class="fab fa-whatsapp"></i>
+
+            </ul>
+        
+        </div>
+    </div>
+
+</footer>
+
+</html>

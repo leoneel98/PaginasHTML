@@ -1,0 +1,85 @@
+*{
+    padding: 0;  /* Separacion y disminuye el tamaño del titulo */
+    margin: 0;  /* tamaño de distanciamento entre el titulo y los menus- enlaces de (nav) */
+}
+
+h1 {
+    text-align: center; /* Titulo en el centro*/ 
+    background-color: black; /* color de fondo del titulo*/
+    color: aliceblue; /* color de texto - letra*/ 
+    padding: 30px;  /* Ancho del titulo h1 , del fondo */
+}
+
+
+nav ul{
+    background-color: rgba(95, 28, 126, 0.377); 
+    width: 100% ;  /* ancho de donde quedara el el listado de menu, expansion*/
+    list-style-type:none; 
+    text-align: center;  /* texto en el medio */
+}
+
+nav li {
+    display: inline-flex; /* Es para que los menu enlaces se recorran y no este uno encima de otro */
+}
+
+nav a {
+    text-decoration: rgb(0, 0, 0);   /* Color de la decoracion del texto*/
+    color: rgb(0, 0, 0); /*Color del texto */
+    text-align:center; /* alinear (centro) */
+    padding: 10px; /* alto */
+    width: 100px; /* ancho  o sin "width" --> es por defecto*/
+    /*font-size: 0px; --> tamaño de la letra de la fuente fondo etc */
+}
+
+nav li:hover {
+    background-color:rgba(45, 130, 145, 0.37); /* Se remarca el fondo de la palabra o enlace*/
+ }
+
+h2{
+    text-align: center;  /* ancho del titulo o subtitulo*/
+    padding: 3%; /* porcentaje de distanciamiento */
+}
+    .Alinear_imagen {
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+    /*height: 300px;*/
+    /*padding: 0px;*/
+    
+
+footer {
+    background-color: rgba(103, 28, 126, 0.377); 
+    padding-top: 40px;
+    
+    margin-top: auto;
+    height:auto;
+}
+ 
+h4 {
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+
+form {
+    background-color: black;
+    color: aliceblue;
+
+    text-align: left ;
+    text-align: right;
+}
+
+.ayudando {
+    background-color: black;
+    padding: top 50px;
+    margin-top: auto;
+    height: 50px;
+    
+    color: aliceblue;
+    
+
+}
+
